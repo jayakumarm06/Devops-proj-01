@@ -75,7 +75,7 @@ module "rds_db_instance" {
   subnet_groups        = tolist(module.networking.dev_proj_1_public_subnets)
   rds_mysql_sg_id      = module.security_gp.sg_rds_mysql_sg_id
   mysql_db_identifier  = "mydb"
-  mysql_username       = "admin"
+  mysql_username       = "dbuser"
   mysql_password       = "dbpassword"
   mysql_dbname         = "devprojdb"
 
