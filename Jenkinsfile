@@ -11,7 +11,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 deleteDir() // Clean workspace before cloning
-                git branch: 'main', url: 'https://github.com/jayakumarm06/Devops-project-01.git'
+                git branch: 'main', url: 'https://github.com/jayakumarm06/Devops-proj-01.git'
                 sh "ls -lart"
             }
         }
