@@ -6,8 +6,8 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "dev-proj-004-rm-state-bucket"
-    key    = "devops-proj-004/terraform.tfstate"
+    bucket = "dev-proj-005-rm-state-bucket"
+    key    = "devops-proj-005/terraform.tfstate"
     region = "us-east-1"
 
   }
